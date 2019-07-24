@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.title {
+    text-align: center;
+    color: #4F297A;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    background-color: #947FE6;
+    position: absolute;
+}
+
+.title h1 {
+    vertical-align: middle;
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 300px;
+    background-color: #d2bee9;
+    border-radius: 25px;
+}
+
+.container {
+    background-color: #d2bee9;
+    position: absolute;
+    margin-top: 100px;
+    width: 80%;
+    height: 89.5%;
+    margin-left: 10%;
+}
+
+#input-task {
+    width: 19%;
+    margin: 5% 40px 5% 40%;
+    height: 5vh;
+    border-radius: 25px;
+    border-width: 0px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: ubuntu;
+}
+
+#add-button {
+    vertical-align: middle;
+    background: none;
+    border: none;
+    margin: none;
+}
+
+#add-button img {
+    width: 36px;
+    height: 36px;
+}
+
+#todo-list ul {
+    margin-left: 5%;
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    list-style-type: symbols();
+}
+
+#todo-list li {
+    text-align: justify;
+    background-color: #947FE6;
+    border-radius: 25px;
+    margin: 20px 20px 20px 0px;
+    padding-left: 15px;
+    min-height: 36px;
+    list-style: none;
+    padding-left: 50px;
+    background-image: url('./img/back.png');
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#todo-list li p {
+    min-width: 90%;
+    max-width: 90%;
+    display: inline-block;
+}
+
+#todo-list li button {
+    float: right;
+    vertical-align: middle;
+    background: none;
+    border: none;
+    margin: none;
+}
+
+#todo-list li img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+}
