@@ -34,7 +34,7 @@ export default class TodoList extends Component {
         console.log(this.state.todos);
         return (
             <div>
-                <div id="add tag">
+                <div id="add-task" className="naoSelecionavel">
                     <input id="input-task" ></input>
                     <button id="add-button"><img src={addButton} alt="add todo" title="add task" onClick={this.handleClick} ></img></button>
                 </div>
